@@ -1,6 +1,6 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
-import LandingPage from '../pages/Landingpage';
+import LandingPage from '../pages/LandingPage/index';
 import BuisnessManagement from '../pages/BuisnessManagement';
 import Dashboard from '../pages/Dashboard';
 import Events from '../pages/Events';

@@ -1,10 +1,13 @@
+$madison: #0a335d;
+$alabaster: #f8f8f8;
+
 .sidebar {
   width: 250px;
   height: 100vh;
-  background: #0a335d;
+  background: $madison;
   position: relative;
   h1 {
-    color: #f8f8f8;
+    color: $alabaster;
     text-align: center;
     font-weight: bold;
     text-transform: uppercase;
@@ -16,7 +19,7 @@
   }
   &-footer {
     i {
-      color: #f8f8f8;
+      color: $alabaster;
       font-size: 30px;
     }
     display: flex;
@@ -27,8 +30,8 @@
   }
   &-tab {
     padding: 10px 30px 10px 20px;
-    background: #0a335d;
-    color: #fff;
+    background: $madison;
+    color: $alabaster;
     cursor: pointer;
     display: flex;
     height: 63px;
@@ -37,40 +40,11 @@
     justify-content: space-between;
   }
   .active-tab {
-    background: #f8f8f8;
+    background: $alabaster;
     border-top-left-radius: 63px;
     border-bottom-left-radius: 63px;
-    color: #0a335d;
+    color: $madison;
   }
-
-  // &-tab {
-  //   color: white;
-  //   padding-left: 38px;
-  //   cursor: pointer;
-  //   display: flex;
-  //   font-size: 18px;
-  //   margin-left: 10px;
-  //   align-items: center;
-  //   height: 63px;
-  //   background: #0a335d;
-  //   div {
-  //     width: 130px;
-  //   }
-  // }
-  // &-container {
-  //   background: #f8f8f8;
-  //   margin-top: 120px;
-  //   height: 500px;
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: space-around;
-  // }
-  // .active-tab {
-  //   background: #f8f8f8;
-  //   color: #0a335d;
-  //   border-top-left-radius: 63px;
-  //   border-bottom-left-radius: 63px;
-  // }
   .above-active {
     border-bottom-right-radius: 30px;
   }
@@ -78,9 +52,9 @@
     border-top-right-radius: 30px;
   }
   .above-wrapper {
-    background: #f8f8f8;
+    background: $alabaster;
   }
   .below-wrapper {
-    background: #f8f8f8;
+    background: $alabaster;
   }
 }

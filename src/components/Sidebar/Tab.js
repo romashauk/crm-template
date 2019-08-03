@@ -1,17 +1,16 @@
 import React from 'react';
 import {withRouter} from 'react-router-dom';
 
-function Tab(props) {
-  const {tab, active, activeIndex, index} = props;
+function Tab({tab, activeIndex, index, history}) {
   return (
     <li
       className={`${activeIndex - 1 === index ? 'above-wrapper' : ''}${
         activeIndex + 1 === index ? 'below-wrapper' : ''
       }`}
-      onClick={() => props.history.push(tab.link)}
+      onClick={() => history.push(tab.link)}
     >
       <div
-        className={`sidebar-tab${active === tab.link ? ' active-tab' : ''}${
+        className={`sidebar-tab${activeIndex === index ? ' active-tab' : ''}${
           activeIndex - 1 === index ? ' above-active' : ''
         }${activeIndex + 1 === index ? ' below-active' : ''}`}
       >

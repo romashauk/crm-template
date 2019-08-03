@@ -4,7 +4,7 @@ import Tab from './Tab';
 import tabs from './tabs';
 import {withRouter} from 'react-router-dom';
 
-function Sidebar(props) {
+function Sidebar({location, history}) {
   const findIndexOfActive = (array, value) => {
     let index;
     array.forEach((item, i) => {
@@ -20,19 +20,15 @@ function Sidebar(props) {
       <ul className="sidebar-container">
         {tabs.map((tab, i) => (
           <Tab
-            activeIndex={findIndexOfActive(tabs, props.location.pathname)}
+            activeIndex={findIndexOfActive(tabs, location.pathname)}
             index={i}
-            active={props.location.pathname}
             key={i}
             tab={tab}
           />
         ))}
       </ul>
-      <div
-        onClick={() => props.history.push('/support')}
-        className="sidebar-footer"
-      >
-        <i class="fas fa-question-circle" />
+      <div onClick={() => history.push('/support')} className="sidebar-footer">
+        <i className="fas fa-question-circle" />
       </div>
     </div>
   );

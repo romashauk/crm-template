@@ -1,0 +1,43 @@
+.table {
+  tr {
+    height: 76px;
+  }
+  thead.table-header th {
+    vertical-align: middle;
+    border-bottom: 5px solid #ff3399;
+    font-size: 18px;
+    color: #707070;
+    i {
+      margin-left: 5px;
+      cursor: pointer;
+    }
+  }
+  .first {
+    margin-left: 10px;
+    text-align: center;
+  }
+  tbody tr td {
+    color: #707070;
+    max-width: 350px;
+    font-size: 18px;
+    vertical-align: middle;
+  }
+  &-followUp {
+    height: 30px;
+    width: 110px;
+    background: #33669a;
+    color: #ffffff;
+    text-transform: lowercase;
+    border-radius: 9px;
+    font-size: 14px;
+    i {
+      font-size: 16px;
+      padding: 6px;
+      margin-left: 3px;
+    }
+  }
+}
+// .table tbody tr {
+//   padding: 0 20px;
+//   background: silver;
+// }

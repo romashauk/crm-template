@@ -2,7 +2,7 @@
   "name": "crm-template",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://romashauk.github.io/crm-template",
+  "homepage": "https://romashauk.github.io/crm-template/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.0",

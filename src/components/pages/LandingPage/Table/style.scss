@@ -2,6 +2,12 @@
   tr {
     height: 76px;
   }
+  h4 {
+    margin: 30px;
+  }
+  &-notfound {
+    margin: 30px;
+  }
   thead.table-header th {
     vertical-align: middle;
     border-bottom: 5px solid #ff3399;
@@ -11,9 +17,32 @@
       margin-left: 5px;
       cursor: pointer;
     }
+    .active {
+      color: #20a8d8;
+    }
   }
   .first {
-    margin-left: 10px;
+    text-align: center;
+  }
+  .first-body {
+    display: flex;
+    justify-content: center;
+    div {
+      width: 55px;
+      height: 55px;
+      border: 5px solid red;
+      background: #0a335d;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #ffffff;
+      font-size: 25px;
+      span {
+        font-size: 15px;
+        margin-top: 5px;
+      }
+    }
     text-align: center;
   }
   tbody tr td {
@@ -21,6 +50,9 @@
     max-width: 350px;
     font-size: 18px;
     vertical-align: middle;
+  }
+  tbody tr:nth-child(2n) {
+    background: #f4f4f4;
   }
   &-followUp {
     height: 30px;
@@ -37,7 +69,3 @@
     }
   }
 }
-// .table tbody tr {
-//   padding: 0 20px;
-//   background: silver;
-// }

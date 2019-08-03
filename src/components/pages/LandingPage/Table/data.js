@@ -3,7 +3,7 @@ const data = [
     firstName: 'Abraham',
     lastName: 'Doe',
     phase: 'New',
-    lastActivity: '3/25/2019',
+    lastActivity: '2/25/2019',
     followUp: '3/17/2019',
     comment: 'Mention timing and Learning as key points on her'
   },

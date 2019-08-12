@@ -1,4 +1,5 @@
 const tabs = [
+  {name: '', icon: '', link: ''},
   {
     name: 'Dashboard',
     icon: 'fas fa-columns',
@@ -10,34 +11,10 @@ const tabs = [
     link: '/'
   },
   {
-    name: 'Events',
-    icon: 'fas fa-flag',
-    link: '/events'
-  },
-  {
     name: 'Task List',
-    icon: 'fas fa-tasks',
-    link: '/taskList'
+    icon: 'fas fa-flag',
+    link: '/task-list'
   },
-  {
-    name: 'Buisness Management',
-    icon: 'fas fa-circle',
-    link: '/buisnessManagement'
-  },
-  {
-    name: 'Tools',
-    icon: 'fas fa-hammer',
-    link: '/tools'
-  },
-  {
-    name: 'Training',
-    icon: 'fas fa-dumbbell',
-    link: '/training'
-  },
-  {
-    name: 'Support',
-    icon: 'fas fa-question-circle',
-    link: '/support'
-  }
+  {name: '', icon: '', link: ''}
 ];
 export default tabs;

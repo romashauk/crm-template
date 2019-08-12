@@ -5,9 +5,11 @@
   "homepage": "https://romashauk.github.io/crm-template/",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "chart.js": "^2.8.0",
     "gh-pages": "^2.0.1",
     "moment": "^2.24.0",
     "react": "^16.8.6",
+    "react-beautiful-dnd": "^11.0.5",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
     "reactstrap": "^8.0.1"

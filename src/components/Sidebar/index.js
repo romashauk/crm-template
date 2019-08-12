@@ -16,7 +16,7 @@ function Sidebar({location, history}) {
   };
   return (
     <div className="sidebar">
-      <h1>unicorn</h1>
+      <h1>Shauk</h1>
       <ul className="sidebar-container">
         {tabs.map((tab, i) => (
           <Tab
@@ -27,9 +27,6 @@ function Sidebar({location, history}) {
           />
         ))}
       </ul>
-      <div onClick={() => history.push('/support')} className="sidebar-footer">
-        <i className="fas fa-question-circle" />
-      </div>
     </div>
   );
 }

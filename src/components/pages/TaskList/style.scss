@@ -1,0 +1,61 @@
+.task {
+  display: flex;
+  min-height: 100vh;
+  &-adding {
+    background-color: #0a335d;
+    cursor: pointer;
+    border-radius: 3px;
+    color: white;
+    height: 50px;
+    transition: background 85ms ease-in, opacity 40ms ease-in;
+    width: 270px;
+    padding: 12px 8px;
+    align-items: center;
+    font-size: 20px;
+    i {
+      margin-right: 10px;
+    }
+    &:hover {
+      background-color: #072a4d;
+    }
+    &_container {
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .add-mode {
+    height: 120px;
+  }
+  &-column {
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+    margin-right: 10px;
+    width: 270px;
+    padding: 12px 8px;
+    font-size: 15px;
+    display: flex;
+    word-break: break-all;
+    flex-direction: column;
+    height: auto;
+    background-color: #0a335d;
+    &_add {
+      background: #e1c9c9;
+      color: black;
+      padding: 8px;
+    }
+    i {
+      margin-right: 8px;
+    }
+  }
+  &-item {
+    overflow: hidden;
+    padding: 6px 8px;
+    position: relative;
+    z-index: 10;
+    background: white;
+    color: black;
+    margin-bottom: 10px;
+  }
+}

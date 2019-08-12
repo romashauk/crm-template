@@ -6,35 +6,6 @@
   align-items: flex-start;
   position: relative;
   margin-bottom: 40px;
-  h3 {
-    font-size: 24px;
-    color: #0a335d;
-    font-weight: 600;
-    width: 95%;
-    padding-bottom: 20px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    i {
-      font-size: 19px;
-      margin-right: 10px;
-    }
-  }
-  &-navigation {
-    width: 190px;
-    position: absolute;
-    right: 0;
-    background: #0a335d;
-    color: white;
-    padding: 20px 90px 20px 30px;
-    border-top-left-radius: 63px;
-    border-bottom-left-radius: 63px;
-    top: 20px;
-    cursor: pointer;
-    z-index: 5;
-    display: flex;
-    justify-content: space-between;
-  }
   &-container {
     height: 690px;
     background: #ffffff;
